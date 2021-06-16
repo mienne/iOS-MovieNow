@@ -1,0 +1,3 @@
+cd BuildTools
+SDKROOT=macosx
+swift run komondor

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bmq-rD-mQk">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Search-->
+        <scene sceneID="igs-ca-SrB">
+            <objects>
+                <navigationController storyboardIdentifier="Search" useStoryboardIdentifierAsRestorationIdentifier="YES" id="bmq-rD-mQk" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Search" image="ic_search" selectedImage="ic_search" id="YeY-Ec-0iI"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7tE-tp-5QW">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="mqs-xA-sNs" kind="relationship" relationship="rootViewController" id="hyt-ZD-360"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jsl-yk-F53" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-887" y="84"/>
+        </scene>
+        <!--Search-->
+        <scene sceneID="fNH-qx-kuK">
+            <objects>
+                <viewController id="mqs-xA-sNs" customClass="SearchViewController" customModule="MovieNow" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XS1-3X-1lV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="w7s-gA-Nfr"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Search" id="hPu-HC-ShN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jff-sz-H4a" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-112" y="84"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_search" width="25" height="25"/>
+    </resources>
+</document>

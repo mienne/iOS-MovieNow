@@ -1,0 +1,25 @@
+{
+  "id": 512200,
+  "results": [
+    {
+      "id": "5d1a1a9b30aa3163c6c5fe57",
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "rBxcF-r9Ibs",
+      "name": "JUMANJI: THE NEXT LEVEL - Official Trailer (HD)",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer"
+    },
+    {
+      "id": "5dbaf20c0792e100134ac14d",
+      "iso_639_1": "en",
+      "iso_3166_1": "US",
+      "key": "F6QaLsw8EWY",
+      "name": "JUMANJI: THE NEXT LEVEL - Final Trailer (HD)",
+      "site": "YouTube",
+      "size": 1080,
+      "type": "Trailer"
+    }
+  ]
+}

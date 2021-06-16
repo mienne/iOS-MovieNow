@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="XXx-Ce-Iha">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Movie-->
+        <scene sceneID="oSl-6P-Rox">
+            <objects>
+                <navigationController storyboardIdentifier="Movie" useStoryboardIdentifierAsRestorationIdentifier="YES" id="XXx-Ce-Iha" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Movie" image="ic_movie" selectedImage="ic_movie_fill" id="Mrw-yI-Bem"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ZFP-7B-06x">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="43b-Tl-oa8" kind="relationship" relationship="rootViewController" id="CBl-S7-btK"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6gQ-l4-ys9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1042" y="-111"/>
+        </scene>
+        <!--Movie-->
+        <scene sceneID="E1K-PI-xkS">
+            <objects>
+                <viewController id="43b-Tl-oa8" customClass="MovieViewController" customModule="MovieNow" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="f4A-EP-Z2L">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="fXu-Lq-ML0"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Movie" id="P8a-cx-v1P"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vk4-cb-Q5n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-271" y="-111"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ic_movie" width="25" height="25"/>
+        <image name="ic_movie_fill" width="25" height="25"/>
+    </resources>
+</document>

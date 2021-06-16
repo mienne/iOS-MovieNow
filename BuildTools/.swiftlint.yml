@@ -1,0 +1,7 @@
+included:
+  - Sources
+  - Tests
+excluded:
+  - .build
+  - .swiftpm
+reporter: "xcode"
