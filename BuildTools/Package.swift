@@ -38,8 +38,8 @@ let package = Package(
         "komondor": [
             "pre-commit": [
                 "git diff --cached --name-only | xargs git diff | md5 > .pre_format_hash",
-                "swift run -c release swiftformat \($SRCROOT)",
-                "swift run -c release swiftlint --path \($SRCROOT)",
+                "swift run swiftformat \($SRCROOT)",
+                "swift run swiftlint --path \($SRCROOT)",
                 "git diff --cached --name-only | xargs git diff | md5 > .post_format_hash",
                 "diff .pre_format_hash .post_format_hash > /dev/null || { echo \"Staged files modified during commit\" ; rm .pre_format_hash ; rm .post_format_hash ; exit 1; }",
                 "rm .pre_format_hash ; rm .post_format_hash",
